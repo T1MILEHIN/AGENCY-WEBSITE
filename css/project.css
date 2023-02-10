@@ -495,7 +495,6 @@ footer div form button:hover{
 @media screen and (max-width:991px){
     div.burger i {
         display: block;
-        color: white;
     }
 
     input[type="checkbox"] {
@@ -521,7 +520,7 @@ footer div form button:hover{
     }
     
     input#show-burger:checked ~ul.links {
-        left: 49%;
+        left: 49vw;
     }
 
     .burger {
@@ -551,6 +550,10 @@ footer div form button:hover{
 
     div.trust>div:first-child {
         padding: 0 16vw;
+    }
+
+    div.trust>div:last-child img {
+        width: 100%;
     }
 
 
